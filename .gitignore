@@ -2,3 +2,6 @@ bin/
 test/
 testconfigs/
 *~
+*.aux
+*.log
+*.out
