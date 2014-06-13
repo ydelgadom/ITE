@@ -1,0 +1,190 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.6.12)  17 APR 2014 17:06
+entering extended mode
+ %&-line parsing enabled.
+**ITE.tex
+(./ITE.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/doublestroke/dsfont.sty
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+) (./ITE.aux)
+\openout1 = `ITE.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen108
+\MPnumerator=\count93
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 27.
+
+Overfull \hbox (35.58961pt too wide) detected at line 30
+\OML/cmm/m/it/10 D[]\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 U\OT1/cmr/m/n/10 ](\OML/c
+mm/m/it/10 ^^V\OT1/cmr/m/n/10 ) = (\OML/cmm/m/it/10 m \OT1/cmr/m/n/10 + 4)\OML/
+cmm/m/it/10 ^^N[] \OMS/cmsy/m/n/10 ^^@ [] [] [] ^^@ \OML/cmm/m/it/10 ^^ZM[] \OM
+S/cmsy/m/n/10 ^^@ [][][]
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 87.
+
+Overfull \hbox (37.1204pt too wide) in alignment at lines 98--104
+ [][][] []
+ []
+
+
+Overfull \hbox (78.70857pt too wide) in alignment at lines 108--119
+ [][][] []
+ []
+
+[2] [3] [4]
+Overfull \hbox (18.55171pt too wide) in alignment at lines 227--254
+ [][][] []
+ []
+
+[5]
+Overfull \hbox (74.19753pt too wide) in alignment at lines 266--308
+ [][][] []
+ []
+
+[6]
+Overfull \hbox (29.0227pt too wide) in alignment at lines 314--349
+ [][][] []
+ []
+
+
+Overfull \hbox (36.57762pt too wide) in alignment at lines 352--377
+ [][][] []
+ []
+
+[7]
+Overfull \hbox (114.31456pt too wide) in alignment at lines 380--506
+ [][][] []
+ []
+
+[8] [9] [10] [11]
+Overfull \hbox (17.22433pt too wide) in paragraph at lines 563--568
+\OT1/cmr/m/n/10 The term $\OMS/cmsy/m/n/10 / \OML/cmm/m/it/10 ^^Z[]$ \OT1/cmr/m
+/n/10 con-tributes to the sec-ond or-der. Then: $2 [][] \OML/cmm/m/it/10 b[] \O
+T1/cmr/m/n/10 = \OML/cmm/m/it/10 Tr\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 MD[]\OT1/c
+mr/m/n/10 ]\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 3$
+ []
+
+<./mass_free.pdf, id=48, 775.89874pt x 467.7475pt>
+File: ./mass_free.pdf Graphic file (type pdf)
+ <use ./mass_free.pdf>
+<./mu_free.pdf, id=50, 750.805pt x 471.7625pt>
+File: ./mu_free.pdf Graphic file (type pdf)
+ <use ./mu_free.pdf> [12 <./mass_free.pdf> <./mu_free.pdf>] (./ITE.aux) ) 
+Here is how much of TeX's memory you used:
+ 1004 strings out of 495061
+ 12541 string characters out of 1182621
+ 105350 words of memory out of 3000000
+ 4218 multiletter control sequences out of 15000+50000
+ 7298 words of font info for 26 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 32i,7n,21p,195b,212s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi
+5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb>
+Output written on ITE.pdf (12 pages, 212266 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+

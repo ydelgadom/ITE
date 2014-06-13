@@ -1,0 +1,108 @@
+This code computes the first and second derivatives of Z w.r.t the chemical potential and the mass.  
+A modified Taylor expansion is used to calculate the observables at finite density.
+
+The program is divided in two parts:
+1. Compute all traces needed to construct the observables and write the results to the 
+		file $(PATH_TO_OUTPUTFILES)/traces.dat
+2. Compute observables using the traces from (1) and write the results to the file 
+		$(PATH_TO_OUTPUTFILES)/finalObs.dat
+
+
+COMPILATION
+------------
+cd ..../current_code/
+make clean
+make ran
+make main
+make anal
+make free
+
+
+
+EXECUTE TRACE PROGRAM
+----------------------
+cd .../current_code/bin/
+mpiexec -np 1 ./tr.x -s 4 -t 8 -m 0.1 [-f] input
+
+with the options:
+np: number of processes
+s: sites in the spatial direction
+t: sites in the temporal direction
+m: mass
+f: free configuration
+input: name of input file
+
+The "input" file contains:
+$(PATH_TO_GAUGE_CONFIGURATIONS)
+$(PATH_TO_OUTPUTFILES)
+name of configuration1
+name of configuration2
+....
+name of configuration np
+
+*** the number of configurations must be a multiple of np
+
+
+
+EXECUTE ANALYSIS PROGRAM
+-------------------------
+cd .../current_code/bin/
+./anal.x -s 4 -t 8 [-f] -n 100 input_tr
+
+with the options:
+s: sites in the spatial direction
+t: sites in the temporal direction
+f: if free configuration
+n: number of values of the chemical potential (nmu)
+input_tr: name of input file 
+
+The "input_tr" file contains:
+$(PATH_TO_OUTPUTFILES)
+name of file where the traces are stored
+
+
+
+EXECUTE FREE CASE PROGRAM
+---------------------------
+cd ../current_code/bin/
+./free.x -s 4 -t 8 -m 0.1 -n 100 out.dat
+s: sites in the spatial direction
+t: sites in the temporal direction
+m: mass
+n: number of values of the chemical potential (nmu) 
+out.dat:  name of output file
+
+
+
+FILES IN CURRENT_CODE:
+-----------------------
+include/ConfigData.h 
+		class to store gauge field configurations
+
+includes.h
+		All include files
+
+init.h
+		Initialization routines (read/set parameters)
+
+variables.h
+		Global variables and parameters.
+		One chan choose:
+		#define NRANVEC 500  // number of vectors to compute the traces
+		//#define MM2 // second version of the MTE
+		#define MM1 // first version of the MTE
+
+ranlxd.*
+		Luscher's random number generator [double precision]
+
+matvec_operations.h
+		All matrix vector operations
+
+main.cpp
+		control program to compute the traces, I/O routines, etc...
+
+analysis.cpp
+		Computes the observables.
+
+free_case.cpp
+		Free case using Fourier transform.
